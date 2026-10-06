@@ -1,0 +1,9 @@
+{
+  "name": "syk-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SYK 的博客 —— GitHub Pages + Supabase",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}

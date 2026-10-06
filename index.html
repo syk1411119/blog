@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYK 的博客</title>
+  <meta name="description" content="技术、生活与学习笔记">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/favicon.svg" alt="logo" width="34" height="34">
+        <span>SYK 的博客</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="downloads.html">下载</a>
+        <a href="admin.html">管理</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>SYK 的博客</h1>
+      <p>技术 · 生活 · 学习 —— 记录与分享</p>
+    </section>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-cat="all">全部</button>
+      <button class="filter-btn" data-cat="tech">技术</button>
+      <button class="filter-btn" data-cat="life">生活</button>
+      <button class="filter-btn" data-cat="study">学习</button>
+    </div>
+
+    <div class="post-grid" id="post-list"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 SYK · 由 GitHub Pages + Supabase 驱动</div>
+  </footer>
+
+  <script src="assets/config.js"></script>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
